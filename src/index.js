@@ -9,3 +9,4 @@ fetchMovies("captain america"); // on 1st page load
 initSearchBar();
 initSortable();
 initMarkdown();
+initSelect2();
