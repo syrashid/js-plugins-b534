@@ -1,6 +1,6 @@
-import { fetchMovies, updateResultsList } from './movies';
+import { fetchMovies } from "./movies";
+import { initSearchBar } from "./init_searchbar";
 
 fetchMovies("harry potter"); // on 1st page load
 
-const form = document.querySelector("#search-form");
-form.addEventListener("submit", updateResultsList);
+initSearchBar();

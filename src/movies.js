@@ -12,7 +12,7 @@ const insertMovies = (data) => {
 
 const fetchMovies = (query) => {
   fetch(`http://www.omdbapi.com/?s=${query}&apikey=adf1f2d7`)
-    .then((response) => response.json())
+    .then(response => response.json())
     .then(insertMovies);
 };
 

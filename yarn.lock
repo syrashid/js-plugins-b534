@@ -1176,6 +1176,11 @@ domain-browser@^1.1.1:
   resolved "https://registry.yarnpkg.com/domain-browser/-/domain-browser-1.2.0.tgz#3d31f50191a6749dd1375a7f522e823d42e54eda"
   integrity sha512-jnjyiM6eRyZl2H+W8Q/zLMA481hzi0eszAaBUzIVnmYVDBbnLxVNnfu1HgEBvCbL+71FrxMl3E6lpKH7Ge3OXA==
 
+domhelpers@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/domhelpers/-/domhelpers-0.1.0.tgz#8308e1ad5fd689e44c725d152f48ce82a7c2147a"
+  integrity sha1-gwjhrV/WieRMcl0VL0jOgqfCFHo=
+
 duplexify@^3.4.2, duplexify@^3.6.0:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/duplexify/-/duplexify-3.7.1.tgz#2a4df5317f6ccfd91f86d6fd25d8d8a103b88309"
@@ -2719,6 +2724,11 @@ mkdirp@^0.5.1, mkdirp@^0.5.3, mkdirp@^0.5.5:
   dependencies:
     minimist "^1.2.5"
 
+mout@^0.11.0:
+  version "0.11.1"
+  resolved "https://registry.yarnpkg.com/mout/-/mout-0.11.1.tgz#ba3611df5f0e5b1ffbfd01166b8f02d1f5fa2b99"
+  integrity sha1-ujYR318OWx/7/QEWa48C0fX6K5k=
+
 move-concurrently@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/move-concurrently/-/move-concurrently-1.0.1.tgz#be2c005fda32e0b29af1f05d7c4b33214c701f92"
@@ -3798,6 +3808,14 @@ sockjs@^0.3.21:
     faye-websocket "^0.11.3"
     uuid "^3.4.0"
     websocket-driver "^0.7.4"
+
+sortable.js@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/sortable.js/-/sortable.js-0.3.0.tgz#d63c2d4629321bd4bc1d8ad33c83f26077f8031d"
+  integrity sha1-1jwtRikyG9S8HYrTPIPyYHf4Ax0=
+  dependencies:
+    domhelpers "^0.1.0"
+    mout "^0.11.0"
 
 source-list-map@^2.0.0:
   version "2.0.1"
