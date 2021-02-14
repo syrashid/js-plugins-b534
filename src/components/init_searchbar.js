@@ -1,4 +1,4 @@
-import { updateResultsList } from "./movies";
+import { updateResultsList } from "../requests/movies";
 
 const initSearchBar = () => {
   const form = document.querySelector("#search-form");

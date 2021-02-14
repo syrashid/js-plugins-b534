@@ -1,6 +1,8 @@
-import { fetchMovies } from "./movies";
-import { initSearchBar } from "./init_searchbar";
+import { fetchMovies } from "./requests/movies";
+import { initSearchBar } from "./components/init_searchbar";
+import { initSortable } from "./plugins/init_sortable";
 
-fetchMovies("harry potter"); // on 1st page load
+fetchMovies("captain america"); // on 1st page load
 
 initSearchBar();
+initSortable();
