@@ -1,8 +1,9 @@
-import Sortable from "sortablejs";
+import { Sortable } from "sortablejs";
 
 const initSortable = () => {
-  const el = document.getElementById("results");
-  Sortable.create(el, {
+  console.log("FUNCTION CALLED");
+  const list = document.querySelector("#results");
+  Sortable.create(list, {
     ghostClass: "ghost",
     animation: 150,
     onEnd: (event) => {

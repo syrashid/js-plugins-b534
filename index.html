@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
   <head>
     <meta charset="UTF-8">
     <title>OMDb API</title>
@@ -34,7 +35,42 @@
 
 
     </div>
+=======
+<head>
+  <meta charset="UTF-8">
+  <title>OMDb API</title>
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/select2/dist/css/select2.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container text-center">
+>>>>>>> c8bcdc30d86dfedaeeab4874045f572d6fab1680
 
-    <script src="main.js"></script>
-  </body>
+
+    <form class="form-inline" id="search-form">
+      <input type="text" class="form-control" placeholder="Find movie" id="search-input">
+      <input type="submit" class="btn btn-primary">
+    </form>
+    <ul id="results" class="list-inline"></ul>
+
+    <select class="select2" name="country">
+      <option value="AL">Alabama</option>
+      <option value="WY">Wyoming</option>
+      <option value="VA">Virginia</option>
+      <option value="GA">Georgia</option>
+      <option value="MO">Missouri</option>
+      <option value="CA">California</option>
+      <option value="NY">New York</option>
+      <option value="FL">Florida</option>
+      <option value="OR">Oregon</option>
+    </select>
+
+    <textarea class="form-control" id="editor" rows="4"></textarea>
+    <div id="preview"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
 </html>
