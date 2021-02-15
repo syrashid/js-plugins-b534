@@ -6,6 +6,7 @@
     <link rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/select2/dist/css/select2.css">
   </head>
   <body>
     <div class="container text-center">
@@ -15,8 +16,23 @@
       </form>
       <ul id="results" class="list-inline"></ul>
 
+    <select class="select2" name="country">
+      <option value="AL">Alabama</option>
+      <option value="WY">Wyoming</option>
+      <option value="VA">Virginia</option>
+      <option value="GA">Georgia</option>
+      <option value="MO">Missouri</option>
+      <option value="NY">New York</option>
+      <option value="CA">California</option>
+      <option value="FL">Florida</option>
+      <option value="OR">Oregon</option>
+    </select>
+
+
       <textarea class="form-control" id="editor" rows="4"></textarea>
       <div id="preview"></div>
+
+
     </div>
 
     <script src="main.js"></script>
